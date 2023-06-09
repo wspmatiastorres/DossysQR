@@ -6,6 +6,10 @@ function onNewScanResult(decodedText, decodedResult) {
   console.log("hola...")
   console.log(decodedText)
   console.log(decodedResult)
+  
+  // Guardar los datos en el Local Storage
+  localStorage.setItem('dossysqr_api_url', decodedText);
+  localStorage.setItem('dossysqr_api_url', JSON.stringify(decodedResult));
 }
 
 function ConfigQR() {
