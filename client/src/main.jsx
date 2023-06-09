@@ -1,53 +1,31 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-// import App from './App.jsx'
-import StartWrapper from './StartWrapper'
-import MainMenu from './routes/MainMenu'
-import Scan from './routes/Scan'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import MainPage from './Home/MainPage'
+import ConfigMain from './Config/ConfigMain'
+import ScanMain from './Scan/ScanMain'
 import './index.css'
-import { BrowserRouter as Router, Route,createBrowserRouter } from 'react-router-dom';
-
-
-
-const Config = () => {
-  return <h1>Página de contacto</h1>;
-};
-
-
-const Result = () => {
-  return <h1>Página de contacto</h1>;
-};
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element:<MainMenu />,
-    ScanElement:<Scan /> 
+    element: <MainPage />,
+    // ScanElement:<Scan /> 
   },
   {
     path: "/Config",
-    element: Config(),
+    element: <ConfigMain />,
   },
   {
     path: "/Scan",
-    element:<Scan /> ,
-  },
-  {
-    path: "/Result",
-    element: Result(),
-  },
-  {
-    path: "/qr",
-    element: <StartWrapper />,
-  },
+    element: <ScanMain />,
+  }
 ]);
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <StartWrapper />,
-    <MainMenu  />,
-    <Scan  />,
-    <Result />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )
 
