@@ -7,7 +7,8 @@ import NavBar from './Components/NavBar'
 
 function StartWrapper() {
 
-    const [currentScreen, setCurrentScreen] = useState('main')
+    const [currentScreen, setCurrentScreen] = useState('result')
+    const [result, setResult] = useState('djfokisdhjgfkldshjgoksdhf')
     
     // const [hasAPIKey, setHasAPIKey] = useState(false)
     // const [APIUrl, setAPIUrl] = useState('')
@@ -22,22 +23,22 @@ function StartWrapper() {
 
     if (currentScreen == 'main'){
         return (
-             <><MainPage /><NavBar /></>
+             <><MainPage /><NavBar actuador={setCurrentScreen} /></>
         )
     }
     else if (currentScreen == 'config'){
         return (
-             <><ConfigMain /><NavBar /></>
+             <><ConfigMain /><NavBar actuador={setCurrentScreen} /></>
         )
     }
     else if (currentScreen == 'scan'){
         return (
-             <><ScanMain /><NavBar /></>
+             <><ScanMain /><NavBar actuador={setCurrentScreen} /></>
         )
     }
     else if (currentScreen == 'result'){
         return (
-             <><ResultMain /><NavBar /></>
+             <><ResultMain result={result} /><NavBar actuador={setCurrentScreen} /></>
         )
     }
     else {

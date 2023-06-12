@@ -1,8 +1,8 @@
 import React from 'react'
 
-function ResultMain() {
+function ResultMain(props) {
   return (
-    <div>ResultMain</div>
+    <div>{props.result}</div>
   )
 }
 
