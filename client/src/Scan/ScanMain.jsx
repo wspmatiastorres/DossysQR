@@ -10,7 +10,9 @@ function ScanMain() {
             <p>Este es un mensaje en el navegador.</p>
         </div><div>
                 {/* <p>Resultado: {result}</p> */}
-            </div></>
+            </div>
+            <button><a href="/">MainPage</a></button>
+            </>
     )
 }
 
