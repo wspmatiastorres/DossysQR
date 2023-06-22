@@ -1,0 +1,71 @@
+button{
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  background-color: #aaa;
+  margin-top: 20px;
+
+}
+
+.buttonmain{
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  background-color: #ff372f;
+  margin-top: 20px;
+
+}
+.buttonconfig{
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background-color: #1e242b;
+    margin-top: 20px;
+
+  }
+  .buttonscan{
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background-color: #333d47;
+    margin-top: 20px;
+
+  }
+  .buttonresult{
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background-color: #537898;
+    margin-top: 20px;
+
+  }
+
+  .div1{
+    display: inline;
+    margin-right: 10px;
+  }
+  div{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .navbar-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+  }
