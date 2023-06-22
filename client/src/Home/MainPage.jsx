@@ -1,20 +1,13 @@
 import React from 'react';
 import './home.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHandSpock } from '@fortawesome/free-solid-svg-icons';
-import Logo from '../img/Logo.png';
 import AMP from '../img/AMP.png'
+import Banner from '../Components/Banner'
 
 function MainPage() {
   return (
     <>
       <div>
-        <nav className="navbar">
-          <img src={Logo} alt="" />
-          <div className='div1 textoEstilizado'>
-            <h2>Hola, Bienvenido.</h2>
-          </div>
-        </nav>
+        <Banner />
       </div>
       <center>
       <br /><br /><br />

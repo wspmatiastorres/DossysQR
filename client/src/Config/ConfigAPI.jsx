@@ -1,17 +1,12 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHandPointDown } from '@fortawesome/free-solid-svg-icons';
-import Logo from '../img/Logo.png';
-
+import Banner from '../Components/Banner'
 import './confi.css';
 
 function ConfigAPI() {
   return (
     <>
       <div >
-        <nav className='navbar'>
-          <img src={Logo} alt="" />
-        </nav>
+        <Banner />
       </div>
       <br />
       <div >
