@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import ConfigAPI from './ConfigAPI'
 import ConfigQR from './ConfigQR'
+import './confi.css'
 
 const App = () => {
   const [mode, setMode] = useState('configAPI') // Valor inicial del modo: 'main', pero puedes ajustarlo según tus necesidades
@@ -18,10 +19,13 @@ const App = () => {
   }
 
   return (
+    <>
     <div>
       {componentToShow}
-      {mode === 'configAPI' ? <button onClick={() => handleModeChange('configQR')}>QR</button> : <button onClick={() => handleModeChange('configAPI')}>Manual</button>}      
-    </div>
+      <center>
+        {mode === 'configAPI' ? <button onClick={() => handleModeChange('configQR')}>QR</button> : <button onClick={() => handleModeChange('configAPI')}>Manual</button>}
+      </center>
+    </div></>
   )
 }
 

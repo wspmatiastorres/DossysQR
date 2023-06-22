@@ -1,0 +1,26 @@
+.result-cont{
+    word-wrap: break-word;
+  }
+.puntodequiebre{
+  word-wrap: break-word;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+img{
+  text-align: left;
+  width: 57.372px;
+  height: 27.285px;
+}
+
+.card{
+  width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ccc;
+}

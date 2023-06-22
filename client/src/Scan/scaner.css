@@ -1,0 +1,10 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  img{ 
+    text-align: left;
+    width: 57.372px;
+    height: 27.285px;
+  }
