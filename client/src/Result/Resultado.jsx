@@ -2,7 +2,6 @@ import './style.css'
 import Banner from '../Components/Banner'
 
 const Resultado = (props) => {
-
   return (
     <><div>
       <Banner />

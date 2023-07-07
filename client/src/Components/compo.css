@@ -6,18 +6,20 @@ button{
   cursor: pointer;
   background-color: #aaa;
   margin-top: 20px;
-
+  border: 1px solid #000; /* Agrega un borde de 1px de grosor */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agrega una sombra de 2px de desplazamiento horizontal, 2px de desplazamiento vertical y 4px de desenfoque */
 }
 
 .buttonmain{
   border-radius: 20px;
   padding: 10px 20px;
   color: #fff;
-  border: none;
+  border:none;
   cursor: pointer;
   background-color: #ff372f;
   margin-top: 20px;
-
+  border: 1px solid #000; /* Agrega un borde de 1px de grosor */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agrega una sombra de 2px de desplazamiento horizontal, 2px de desplazamiento vertical y 4px de desenfoque */
 }
 .buttonconfig{
     border-radius: 20px;
@@ -27,7 +29,8 @@ button{
     cursor: pointer;
     background-color: #1e242b;
     margin-top: 20px;
-
+    border: 1px solid #000; /* Agrega un borde de 1px de grosor */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agrega una sombra de 2px de desplazamiento horizontal, 2px de desplazamiento vertical y 4px de desenfoque */
   }
   .buttonscan{
     border-radius: 20px;
@@ -37,7 +40,8 @@ button{
     cursor: pointer;
     background-color: #333d47;
     margin-top: 20px;
-
+    border: 1px solid #000; /* Agrega un borde de 1px de grosor */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agrega una sombra de 2px de desplazamiento horizontal, 2px de desplazamiento vertical y 4px de desenfoque */
   }
   .buttonresult{
     border-radius: 20px;
@@ -47,7 +51,8 @@ button{
     cursor: pointer;
     background-color: #537898;
     margin-top: 20px;
-
+    border: 1px solid #000; /* Agrega un borde de 1px de grosor */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agrega una sombra de 2px de desplazamiento horizontal, 2px de desplazamiento vertical y 4px de desenfoque */
   }
 
   .div1{
@@ -69,3 +74,37 @@ button{
     height: 60px;
     box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
   }
+
+
+.buttonmain.active:hover{
+  /* Estilos para los botones activos */
+  background-color:#ffffff;
+  color: black;
+  border: 1px solid #000; /* Agrega un borde de 1px de grosor */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agrega una sombra de 2px de desplazamiento horizontal, 2px de desplazamiento vertical y 4px de desenfoque */
+  filter: brightness(80%);
+}
+.buttonconfig.active:hover{
+  /* Estilos para los botones activos */
+  background-color:#ffffff;
+  color: black;
+  border: 1px solid #000; /* Agrega un borde de 1px de grosor */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agrega una sombra de 2px de desplazamiento horizontal, 2px de desplazamiento vertical y 4px de desenfoque */
+  filter: brightness(80%);
+}
+.buttonscan.active:hover{
+  /* Estilos para los botones activos */
+  background-color:#ffffff;
+  color: black;
+  border: 1px solid #000; /* Agrega un borde de 1px de grosor */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agrega una sombra de 2px de desplazamiento horizontal, 2px de desplazamiento vertical y 4px de desenfoque */
+  filter: brightness(80%);
+}
+.buttonresult.active:hover{
+   /* Estilos para los botones activos */
+   background-color:#ffffff;
+   color: black;
+   border: 1px solid #000; /* Agrega un borde de 1px de grosor */
+   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agrega una sombra de 2px de desplazamiento horizontal, 2px de desplazamiento vertical y 4px de desenfoque */
+   filter: brightness(80%);
+}

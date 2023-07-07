@@ -24,7 +24,9 @@
     align-items: center;
     height: 100vh; /* Ajusta la altura según tus necesidades */
   }
-  
-  
-  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
   

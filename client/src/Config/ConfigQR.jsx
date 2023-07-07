@@ -34,9 +34,8 @@ const ConfigQR = (props) => {
           disableFlip={false}
           qrCodeSuccessCallback={onNewScanResult}
           id="qr-code-scanner" />
-        <br /><br /><br /><br />
+
       </div>
-      <br /><br /><br /><br /><br /><br /><br /><br />
       </center>
     </>
   );
